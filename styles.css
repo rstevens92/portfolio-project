@@ -7,16 +7,26 @@
   background-color: #0084A3;
 }
 
-.background {
-  position: absolute;
-  width: 100vw;
-  height: 993px;
-  left: 0;
-  top: 0;
-  background: linear-gradient(0deg, rgba(1, 126, 156, 0.74), rgba(1, 126, 156, 0.74)), url(./images/background.jpg);
-  transform: rotate(-180deg);
+.navigation--home-title:link {
+  color: #FFBA00;
+}
+.navigation--link:link {
+  color: #ffffff;
 }
 
-.navigation {
-  display: flex;
+.main {
+  text-align: center;
+}
+.main .header {
+  text-align: left;
+  padding: 100px;
+}
+.main .header__secondary {
+  color: #FFBA00;
+}
+.main .section__subheader {
+  color: #FFBA00;
+}
+.main .section--icon-link {
+  color: #FFBA00;
 }

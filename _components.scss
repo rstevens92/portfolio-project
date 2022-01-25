@@ -1,0 +1,36 @@
+.navigation{
+
+    &--home-title:link{
+        color: $color-secondary;
+    }
+
+    &--link:link{
+        color: $color-white;
+    }
+}
+
+.main{
+    text-align: center;
+
+    .header {
+        text-align: left;
+        padding: 100px;
+
+
+        &__secondary{
+            color: $color-secondary;
+
+        }
+    }
+
+    .section {
+
+        &__subheader{
+            color: $color-secondary;
+        }
+
+        &--icon-link{
+            color: $color-secondary;
+        }
+    }
+}
