@@ -65,8 +65,14 @@
   font-size: 25px;
 }
 .main .section .section__project-images {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
+}
+@media screen and (min-width: 480px) {
+  .main .section .section__project-images {
+    width: 150px;
+    height: 150px;
+  }
 }
 .main .section .section--email-link {
   color: #FFBA00;
@@ -91,8 +97,8 @@
   padding: 20px;
 }
 .section .section__project-header {
-  padding: 30px;
+  padding-bottom: 30px;
 }
 .section .section__project-text {
-  padding: 30px;
+  padding-top: 30px;
 }
