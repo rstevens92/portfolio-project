@@ -1,7 +1,12 @@
 .navigation{
     font-size: 20px;
 
-    .navigation__bar{
+    .navigation__home-title{
+        color: $color-secondary;
+        font-size: 30px;
+    }
+
+    .navigation__link{
         color: $color-white;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     }
@@ -34,10 +39,10 @@
             color: $color-secondary;
           }
 
-        &--icon-link {
-            size: 20px;
-            padding: 5px;
-
+        .section--icon-link {
+            padding: 20px;
+            color: $color-secondary;
+            font-size: 50px;
         }
 
         .section__project-header {
@@ -49,9 +54,13 @@
             height: 150px;
         }
 
+
+        .section--email-link {
+            color: $color-secondary;
+            font-size: 30px;
+        }
+
     }
 }
 
-.fas .fa-envelope {
-    width: 50px;
-}
+

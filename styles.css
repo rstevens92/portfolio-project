@@ -27,7 +27,11 @@
 .navigation {
   font-size: 20px;
 }
-.navigation .navigation__bar {
+.navigation .navigation__home-title {
+  color: #FFBA00;
+  font-size: 30px;
+}
+.navigation .navigation__link {
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -52,9 +56,10 @@
 .main .section__subheader {
   color: #FFBA00;
 }
-.main .section--icon-link {
-  size: 20px;
-  padding: 5px;
+.main .section .section--icon-link {
+  padding: 20px;
+  color: #FFBA00;
+  font-size: 50px;
 }
 .main .section .section__project-header {
   font-size: 25px;
@@ -63,9 +68,9 @@
   width: 150px;
   height: 150px;
 }
-
-.fas .fa-envelope {
-  width: 50px;
+.main .section .section--email-link {
+  color: #FFBA00;
+  font-size: 30px;
 }
 
 .navigation {
@@ -82,7 +87,12 @@
 .section {
   padding: 30px;
 }
-
-.container {
+.section .container {
   padding: 20px;
+}
+.section .section__project-header {
+  padding: 30px;
+}
+.section .section__project-text {
+  padding: 30px;
 }
