@@ -16,14 +16,17 @@
 </head>
 <body>
 
+    <div class="background"></div>
+
     <nav class="navigation">
-        <div class="navigation--home-title"><a href="#">RS</a></div>
-        <div class="navigation--link"><a href="#">About Me</a></div>
-        <div class="navigation--link"><a href="#">My Projects</a></div>
-        <div class="navigation--link"><a href="#">Contact Me</a></div>
+            <div class="navigation__home-title"><a href=".navigation">RS</a></div>
+        <div class="navigation__bar">
+            <div class="navigation__link"><a href="#about-me">About Me</a></div>
+            <div class="navigation__link"><a href="#projects">My Projects</a></div>
+            <div class="navigation__link"><a href="#contact-me">Contact Me</a></div>
+        </div>
     </nav>
 
-    <div class="background"></div>
 
     <main class="main">
         <header class="header">
@@ -31,48 +34,45 @@
             <h2 class="header__secondary">Bristol Based Front End Developer</h2>
         </header>
 
-        <section class="section">
+        <section class="section" id="about-me">
             <h3 class="section__header">ABOUT ME</h3>
             <h4 class="section__subheader">Bristol Based Front End Developer</h4>
-            <p class="section__text">I have so many skills, you would be such a silly billy to not hire me!
-                I know all the languages, I don't even need to Google anything!
-                The very best in Website Design.
-                Don't Delay...email TODAY!!
-            </p>
+            <p class="section__text">I have so many skills, you would be such a silly billy to not hire me!</p>
+            <p class="section__text">I know all the languages, I don't even need to Google anything!</p>  
+            <p class="section__text">The very best in Website Design.</p> 
+            <p class="section__text">Don't Delay...email TODAY!!</p>
             <a class="section--icon-link" href="mailto:rachaelstevens92@gmail.com"><i class="fas fa-envelope"></i></a>
         </section>
 
-        <section class="section">
+        <section class="section" id="projects">
             <h3 class="section__header">PROJECTS</h3>
             <div class="container">
                 <div class="row">
-                    <div class="col-4">Fake Project 1</div>
-                    <div class="col-4">Fake Project 2</div>
-                    <div class="col-4">Fake Project 3</div>
+                    <div class="col-4 section__project-header">Fake Project 1</div>
+                    <div class="col-4 section__project-header">Fake Project 2</div>
+                    <div class="col-4 section__project-header">Fake Project 3</div>
                 </div>
                 <div class="row">
-                    <div class="col-4"><a href="https://www.facebook.com/" target="blank"><img src="./images/fake-project-1.jpg" alt="project preview"></a></div>
-                    <div class="col-4"><a href="https://www.google.com/" target="blank"><img src="./images/fake-project-2.jpg" alt="project preview"></a></div>
-                    <div class="col-4"><a href="https://www.amazon.com" target="blank"><img src="./images/fake-project-3.jpg" alt="project preview"></a></div>
+                    <div class="col-4"><a href="https://www.facebook.com/" target="blank"><img class=" section__project-images" src="./images/fake-project-1.jpg" alt="project preview"></a></div>
+                    <div class="col-4"><a href="https://www.google.com/" target="blank"><img class=" section__project-images" src="./images/fake-project-2.jpg" alt="project preview"></a></div>
+                    <div class="col-4"><a href="https://www.amazon.com" target="blank"><img class=" section__project-images" src="./images/fake-project-3.jpg" alt="project preview"></a></div>
                 </div>
                 <div class="row">
-                    <div class="col-4">This project was very special, I worked with Mark Zuckerberg to create this once in a lifetime website</div>
-                    <div class="col-4">Here I took an idea that already exsisted but managed to make bank</div>
-                    <div class="col-4">On this project I basically re-coded the world... and made it better!</div>
+                    <div class="col-4 section__project-text">This project was very special, I worked with Mark Zuckerberg to create this once in a lifetime website</div>
+                    <div class="col-4 section__project-text">Here I took an idea that already exsisted but managed to make bank</div>
+                    <div class="col-4 section__project-text">On this project I basically re-coded the world... and made it better!</div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section" id="contact-me">
             <h3 class="section__header">CONTACT ME</h3>
-            <h5 class="section--email-link"><a href="mailto:rachaelstevens@gmail.com">rachaelstevens92@gmail.com</a></h5>
-            <a class="section--icon-link" href="mailto:rachaelstevens@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a class="section--icon-link" href="https://github.com/rstevens92"><i class="fab fa-github"></i></a>
-            <a class="section--icon-link" href="https://uk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+            <h5 class="section--email-link"><a href="mailto:rachaelstevens@gmail.com" target="blank">rachaelstevens92@gmail.com</a></h5>
+            <a class="section--icon-link" href="mailto:rachaelstevens@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
+            <a class="section--icon-link" href="https://github.com/rstevens92" target="blank"><i class="fab fa-github"></i></a>
+            <a class="section--icon-link" href="https://uk.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a>
         </section>
     </main>
-
-    <div>testing that Git hub is working</div>
 
 </body>
 </html>

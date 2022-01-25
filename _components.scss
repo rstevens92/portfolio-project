@@ -1,12 +1,11 @@
 .navigation{
+    font-size: 20px;
 
-    &--home-title:link{
-        color: $color-secondary;
-    }
-
-    &--link:link{
+    .navigation__bar{
         color: $color-white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     }
+
 }
 
 .main{
@@ -24,13 +23,35 @@
     }
 
     .section {
+        background-color: $color-primary;
 
-        &__subheader{
-            color: $color-secondary;
+        &__header {
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+            padding: 50px;
         }
 
-        &--icon-link{
+        &__subheader {
             color: $color-secondary;
+          }
+
+        &--icon-link {
+            size: 20px;
+            padding: 5px;
+
         }
+
+        .section__project-header {
+            font-size: 25px;
+        }
+
+        .section__project-images {
+            width: 150px;
+            height: 150px;
+        }
+
     }
+}
+
+.fas .fa-envelope {
+    width: 50px;
 }

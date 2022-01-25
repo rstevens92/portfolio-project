@@ -1,0 +1,21 @@
+.navigation {
+
+    margin: 30px;
+
+    &__bar {
+        display: flex;
+        justify-content: right;
+
+        .navigation__link{
+            padding: 0px 10px;
+        }
+    }
+}
+
+.section {
+    padding: 30px;    
+}
+
+.container {
+    padding: 20px;
+}
