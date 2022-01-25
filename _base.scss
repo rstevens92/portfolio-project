@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+$font-body: "Reem Kufi", sans-serif;
+
+$color-primary: #0084A3;
+$color-secondary: #FFBA00;
+$color-white: #ffffff;
+$color-black: #00262F;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font-body;
+}
