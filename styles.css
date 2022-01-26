@@ -49,9 +49,23 @@
 .main .section {
   background-color: #0084A3;
 }
+.main .section__header-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main .section__oval {
+  position: absolute;
+  background-color: #0084A3;
+  width: 350px;
+  height: 115px;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, #FFBA00 83.85%, rgba(0, 132, 163, 0) 100%);
+}
 .main .section__header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  padding: 50px;
+  padding: 45px;
+  z-index: 1;
 }
 .main .section__subheader {
   color: #FFBA00;
