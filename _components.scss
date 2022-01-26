@@ -23,6 +23,9 @@
 
         &__secondary{
             color: $color-secondary;
+            @media screen and (max-width: 480px)  {
+                font-size: 25px;
+            }
 
         }
     }
@@ -43,22 +46,36 @@
             height: 115px;
             border-radius: 50%;
             background: radial-gradient(50% 50% at 50% 50%, $color-secondary 83.85%, rgba(0, 132, 163, 0) 100%);
+            @media screen and (max-width: 480px)  {
+                width: 275px;
+                height: 100px;
+            }
         }
 
         &__header {
             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-            padding: 45px;
+            padding: 42px;
             z-index: 1;
+            @media screen and (max-width: 480px)  {
+                font-size: 25px;
+                padding: 35px;
+            }
         }
 
         &__subheader {
             color: $color-secondary;
+            @media screen and (max-width: 480px)  {
+                font-size: 25px;
+            }
           }
 
         .section--icon-link {
             padding: 20px;
             color: $color-secondary;
             font-size: 50px;
+            @media screen and (max-width: 480px)  {
+                font-size: 35px;
+             }
         }
 
         .section__project-header {
@@ -68,9 +85,9 @@
         .section__project-images {
             width: 75px;
             height: 75px;
-            @media screen and (min-width: 480px) {
-                width: 150px;
-                height: 150px;
+            @media screen and (min-width: 520px) {
+                width: 140px;
+                height: 140px;
             }
         }
 
@@ -78,6 +95,9 @@
         .section--email-link {
             color: $color-secondary;
             font-size: 30px;
+            @media screen and (max-width: 480px)  {
+                font-size: 25px;
+            }
         }
 
     }

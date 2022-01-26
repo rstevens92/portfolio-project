@@ -46,6 +46,11 @@
 .main .header__secondary {
   color: #FFBA00;
 }
+@media screen and (max-width: 480px) {
+  .main .header__secondary {
+    font-size: 25px;
+  }
+}
 .main .section {
   background-color: #0084A3;
 }
@@ -62,18 +67,40 @@
   border-radius: 50%;
   background: radial-gradient(50% 50% at 50% 50%, #FFBA00 83.85%, rgba(0, 132, 163, 0) 100%);
 }
+@media screen and (max-width: 480px) {
+  .main .section__oval {
+    width: 275px;
+    height: 100px;
+  }
+}
 .main .section__header {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  padding: 45px;
+  padding: 42px;
   z-index: 1;
+}
+@media screen and (max-width: 480px) {
+  .main .section__header {
+    font-size: 25px;
+    padding: 35px;
+  }
 }
 .main .section__subheader {
   color: #FFBA00;
+}
+@media screen and (max-width: 480px) {
+  .main .section__subheader {
+    font-size: 25px;
+  }
 }
 .main .section .section--icon-link {
   padding: 20px;
   color: #FFBA00;
   font-size: 50px;
+}
+@media screen and (max-width: 480px) {
+  .main .section .section--icon-link {
+    font-size: 35px;
+  }
 }
 .main .section .section__project-header {
   font-size: 25px;
@@ -82,15 +109,20 @@
   width: 75px;
   height: 75px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 520px) {
   .main .section .section__project-images {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
   }
 }
 .main .section .section--email-link {
   color: #FFBA00;
   font-size: 30px;
+}
+@media screen and (max-width: 480px) {
+  .main .section .section--email-link {
+    font-size: 25px;
+  }
 }
 
 .navigation {
