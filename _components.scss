@@ -20,6 +20,10 @@
         text-align: left;
         padding: 100px;
 
+        &__primary {
+            font-size: 64px;
+        }
+
 
         &__secondary{
             color: $color-secondary;

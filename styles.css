@@ -43,6 +43,9 @@
   text-align: left;
   padding: 100px;
 }
+.main .header__primary {
+  font-size: 64px;
+}
 .main .header__secondary {
   color: #FFBA00;
 }
