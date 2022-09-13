@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 $font-body: "Reem Kufi", sans-serif;
+// $font-body: "Century Gothic";
 
 $color-primary: #0084A3;
 $color-secondary: #FFBA00;
@@ -12,6 +13,7 @@ $color-black: #00262F;
     padding: 0;
     font-family: $font-body;
     color: $color-white;
+    word-spacing: 2px;
 }
 
 .background {
